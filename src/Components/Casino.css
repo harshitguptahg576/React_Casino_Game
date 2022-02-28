@@ -1,0 +1,46 @@
+.main{
+    background: url("../../public/Images/background.jpg") no-repeat center center /cover;
+    min-height: 90vh;
+    margin-bottom: 5vh;
+}
+.victory{
+    width: 100%;
+    height: 100%;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:20px;
+    margin: 10vh 5vw;
+}
+.box{
+    height: 28vw;
+    cursor: pointer;
+}
+.icon{
+    font-size: 22vw;
+    line-height: 1.2;
+    width: 0vw;
+    display: none;
+    text-align: center;
+}
+.hide{
+    background: url('../../public/Images/hide.jpg') no-repeat center center / cover;
+    /* display: none; */
+}
+@media screen and (min-width:1200px) {
+    .boxes{
+        margin: 7.5vh 10vw;
+    }
+}
+@media screen and (min-width:1400px) {
+    .boxes{
+        margin: 5vh 20vw;
+    }
+    .box{
+        height: 22vw;
+    }
+    .icon{
+        font-size: 15vw;
+    }
+}
