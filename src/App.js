@@ -1,5 +1,4 @@
 import React, { Component, StrictMode} from 'react';
-import './App.css';
 import Casino from './Components/Casino'
 
 class App extends Component {
